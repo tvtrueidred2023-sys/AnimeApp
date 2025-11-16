@@ -1,9 +1,9 @@
-name: Android Release APK Build
+nname: Build and Release APK
 
 on:
   push:
-    tags:
-      - 'v*' # Triggers on new tags starting with 'v'
+    branches:
+      - main
 
 jobs:
   build:
